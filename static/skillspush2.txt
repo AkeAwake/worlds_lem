@@ -1,0 +1,70 @@
+63.63, 28.815, 98
+62.81, 29.387, 98
+61.968, 29.927, 98
+61.106, 30.432, 98
+60.222, 30.901, 98
+59.32, 31.331, 98
+58.399, 31.72, 98
+57.461, 32.068, 98
+56.509, 32.371, 98
+55.543, 32.63, 98
+54.565, 32.84, 98
+53.578, 32.999, 98
+52.585, 33.111, 98
+51.587, 33.175, 98
+50.587, 33.19, 98
+49.588, 33.152, 98
+48.592, 33.066, 98
+47.601, 32.934, 98
+46.617, 32.754, 98
+45.644, 32.526, 98
+44.682, 32.254, 98
+43.732, 31.942, 98
+42.799, 31.582, 98
+41.882, 31.183, 98
+40.982, 30.747, 98
+40.103, 30.271, 98
+39.245, 29.758, 98
+38.407, 29.212, 98
+37.592, 28.632, 97.559
+36.804, 28.017, 96.159
+36.04, 27.373, 94.739
+35.3, 26.7, 93.297
+34.592, 25.994, 91.832
+33.911, 25.261, 90.343
+33.259, 24.503, 88.83
+32.642, 23.717, 87.29
+32.057, 22.906, 85.723
+31.504, 22.073, 84.126
+30.992, 21.214, 82.499
+30.516, 20.335, 80.839
+30.079, 19.435, 79.144
+29.689, 18.514, 77.412
+29.341, 17.577, 75.64
+29.042, 16.623, 73.826
+28.793, 15.655, 71.966
+28.593, 14.675, 70.057
+28.455, 13.685, 68.094
+28.37, 12.689, 66.073
+28.348, 11.689, 63.989
+28.387, 10.69, 61.834
+28.489, 9.696, 59.601
+28.659, 8.711, 57.281
+28.888, 7.738, 54.864
+29.19, 6.785, 52.334
+29.551, 5.852, 49.677
+29.974, 4.946, 46.868
+30.457, 4.071, 43.881
+30.993, 3.227, 40.674
+31.581, 2.419, 37.192
+32.219, 1.649, 33.349
+32.898, 0.915, 29
+33.562, 0.262, 0
+33.562, 0.262, 0
+47.83, -13.753, 0
+endData
+135.6
+98
+200
+63.63, 28.815, 42.518, 44.169, 17.248, 15.38, 33.562, 0.262
+#PATH.JERRYIO-DATA {"appVersion":"0.6.0","format":"LemLib v0.4.x (inch, byte-voltage)","gc":{"robotWidth":12.5,"robotHeight":19,"robotIsHolonomic":false,"showRobot":true,"uol":2.54,"pointDensity":1,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"VRC 2024 - Over Under","signature":"VRC 2024 - Over Under","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"r2XsvdklPc","x":63.63004331610214,"y":28.81457018859079,"lock":false,"visible":true,"heading":318.278,"__type":"end-point"},{"uid":"29XEypBXi4","x":42.51812466105116,"y":44.168692846809684,"lock":false,"visible":true,"__type":"control"},{"uid":"S8pj18fD6p","x":17.247797786065895,"y":15.379712862649257,"lock":false,"visible":true,"__type":"control"},{"uid":"0QforTrbrx","x":33.562,"y":0.262,"lock":false,"visible":true,"heading":0,"__type":"end-point"}],"speedProfiles":[{"uid":"OIOlKRWOeS","xPos":0,"yPos":1,"followBentRate":false},{"uid":"Df0UVpgrXd","xPos":0.14545454545454545,"yPos":1,"followBentRate":false},{"uid":"bJmlScJSTE","xPos":0.36363636363636365,"yPos":1,"followBentRate":false},{"uid":"MxvQU0yGjU","xPos":0.4727272727272727,"yPos":1,"followBentRate":false},{"uid":"qPNIwUcAbS","xPos":0.5636363636363636,"yPos":1,"followBentRate":false},{"uid":"qBxAX9Ki4F","xPos":0.6909090909090909,"yPos":1,"followBentRate":false},{"uid":"6VGHgr23bA","xPos":0.8181818181818182,"yPos":1,"followBentRate":false},{"uid":"XlYrnuEWN5","xPos":0.8545454545454545,"yPos":1,"followBentRate":false},{"uid":"iBSB2ynAuC","xPos":0.8888888888888888,"yPos":1,"followBentRate":false}],"lookaheadKeyframes":[],"uid":"PKUBPywdWE"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":127,"label":"127"},"step":1,"from":29,"to":98},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":1,"label":"1"},"step":0.001,"from":0,"to":0.195},"maxDecelerationRate":135.6},"name":"Path","uid":"No4B2KxE3b","lock":false,"visible":true}]}

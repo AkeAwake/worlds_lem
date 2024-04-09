@@ -1,0 +1,59 @@
+-9.021, 59.232, 99.546
+-10.02, 59.195, 99.546
+-11.02, 59.158, 99.546
+-12.019, 59.118, 99.504
+-13.018, 59.078, 99.504
+-14.017, 59.035, 99.457
+-15.016, 58.991, 99.457
+-16.015, 58.945, 99.405
+-17.014, 58.898, 99.405
+-18.013, 58.849, 99.347
+-19.011, 58.798, 99.347
+-20.01, 58.744, 99.281
+-21.009, 58.689, 98.943
+-22.007, 58.631, 97.651
+-23.005, 58.571, 96.342
+-24.003, 58.508, 95.015
+-25.001, 58.442, 93.668
+-25.999, 58.375, 92.303
+-26.996, 58.303, 90.916
+-27.993, 58.228, 89.508
+-28.99, 58.15, 88.078
+-29.987, 58.068, 86.624
+-30.983, 57.981, 85.146
+-31.979, 57.891, 83.641
+-32.974, 57.796, 82.108
+-33.969, 57.695, 80.547
+-34.964, 57.588, 78.954
+-35.957, 57.475, 77.329
+-36.95, 57.356, 75.669
+-37.942, 57.228, 73.971
+-38.932, 57.092, 72.234
+-39.922, 56.945, 70.454
+-40.909, 56.787, 68.628
+-41.894, 56.616, 66.752
+-42.877, 56.43, 64.821
+-43.855, 56.224, 62.832
+-44.829, 55.997, 60.777
+-45.796, 55.74, 58.65
+-46.752, 55.449, 56.443
+-47.692, 55.107, 54.147
+-48.603, 54.697, 51.75
+-49.461, 54.185, 49.237
+-50.197, 53.513, 46.595
+-50.655, 52.634, 43.809
+-50.685, 51.641, 40.83
+-50.415, 50.68, 37.597
+-50.03, 49.757, 34.053
+-49.653, 48.831, 30.094
+-49.412, 47.863, 25.538
+-49.486, 46.873, 20
+-49.722, 46.348, 0
+-49.722, 46.348, 0
+-57.913, 28.102, 0
+endData
+127
+100
+200
+-9.021, 59.232, -66.658, 57.17, -46.722, 51.284, -49.722, 46.348
+#PATH.JERRYIO-DATA {"appVersion":"0.6.0","format":"LemLib v0.4.x (inch, byte-voltage)","gc":{"robotWidth":12.5,"robotHeight":15,"robotIsHolonomic":false,"showRobot":false,"uol":2.54,"pointDensity":1,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"VRC 2024 - Over Under","signature":"VRC 2024 - Over Under","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"2FvtoytLVM","x":-9.021,"y":59.232,"lock":false,"visible":true,"heading":0,"__type":"end-point"},{"uid":"vyLQhnZ7bl","x":-66.65799973329001,"y":57.17026210495353,"lock":false,"visible":true,"__type":"control"},{"uid":"RBKGoSMs94","x":-46.72186392597154,"y":51.28435534279283,"lock":false,"visible":true,"__type":"control"},{"uid":"9Y7Z7uUo7g","x":-49.722,"y":46.34778838098063,"lock":false,"visible":true,"heading":0,"__type":"end-point"}],"speedProfiles":[{"uid":"1X5EBboNMT","xPos":0.24615384615384617,"yPos":1,"followBentRate":false},{"uid":"efGkjZk0HN","xPos":0.3157894736842105,"yPos":1,"followBentRate":false},{"uid":"oiMptUZCrs","xPos":0.3333333333333333,"yPos":1,"followBentRate":false},{"uid":"lnzIadhADD","xPos":0.3384615384615385,"yPos":1,"followBentRate":false},{"uid":"vMQfYePxKt","xPos":0.38596491228070173,"yPos":1,"followBentRate":true},{"uid":"jjLKge3AmI","xPos":0.38596491228070173,"yPos":1,"followBentRate":false},{"uid":"hr68f16BHD","xPos":0.42105263157894735,"yPos":1,"followBentRate":false},{"uid":"9MyL331xnZ","xPos":0.43859649122807015,"yPos":1,"followBentRate":false},{"uid":"KUmp3l54gf","xPos":0.45614035087719296,"yPos":1,"followBentRate":true},{"uid":"szNZjv9DjQ","xPos":0.45614035087719296,"yPos":1,"followBentRate":false},{"uid":"I62fOg7ucB","xPos":0.49122807017543857,"yPos":1,"followBentRate":false},{"uid":"G5I2w8zYS9","xPos":0.5263157894736842,"yPos":1,"followBentRate":false},{"uid":"wUvOC2fdps","xPos":0.543859649122807,"yPos":1,"followBentRate":true},{"uid":"6fkUAgpxKU","xPos":0.543859649122807,"yPos":1,"followBentRate":true},{"uid":"uBbFZsaxAb","xPos":0.543859649122807,"yPos":1,"followBentRate":true},{"uid":"RWOgWkrOZV","xPos":0.543859649122807,"yPos":1,"followBentRate":false},{"uid":"UpzLTgoQ8E","xPos":0.5789473684210527,"yPos":1,"followBentRate":false},{"uid":"rWCZ3icqrQ","xPos":0.6140350877192983,"yPos":1,"followBentRate":false},{"uid":"115Sig7xOP","xPos":0.631578947368421,"yPos":1,"followBentRate":false},{"uid":"ph6NMpGWT5","xPos":0.6376811594202898,"yPos":1,"followBentRate":false},{"uid":"ZaW4NAv2GT","xPos":0.6491228070175439,"yPos":1,"followBentRate":false},{"uid":"M3au8IdWY3","xPos":0.6521739130434783,"yPos":1,"followBentRate":false},{"uid":"e6SibqCZnU","xPos":0.6666666666666666,"yPos":1,"followBentRate":false},{"uid":"pNHyb32cRw","xPos":0.6842105263157895,"yPos":1,"followBentRate":false},{"uid":"iYpnlIgtZe","xPos":0.6956521739130435,"yPos":1,"followBentRate":false},{"uid":"t7AUP2iXN4","xPos":0.7017543859649122,"yPos":1,"followBentRate":true},{"uid":"XfmBMDfyuZ","xPos":0.7017543859649122,"yPos":1,"followBentRate":false},{"uid":"r3EeKq1tN3","xPos":0.7101449275362319,"yPos":1,"followBentRate":true},{"uid":"yYDkIfJIDY","xPos":0.7101449275362319,"yPos":1,"followBentRate":true},{"uid":"zWIn5g9Jvb","xPos":0.7101449275362319,"yPos":1,"followBentRate":false},{"uid":"OYaSevMEHV","xPos":0.7192982456140351,"yPos":1,"followBentRate":false},{"uid":"FGTLveLfAs","xPos":0.7368421052631579,"yPos":1,"followBentRate":false},{"uid":"ezWpITJTLp","xPos":0.7391304347826086,"yPos":1,"followBentRate":false},{"uid":"Kbg3bJ6jOQ","xPos":0.782608695652174,"yPos":1,"followBentRate":false},{"uid":"AejhrxzxSD","xPos":0.7894736842105263,"yPos":1,"followBentRate":true},{"uid":"eMsvocMrCU","xPos":0.7894736842105263,"yPos":1,"followBentRate":false},{"uid":"IGQglefLqj","xPos":0.8,"yPos":1,"followBentRate":false},{"uid":"op6JcAYLyV","xPos":0.8421052631578947,"yPos":1,"followBentRate":false},{"uid":"5owq9hwlnT","xPos":0.8461538461538461,"yPos":1,"followBentRate":false},{"uid":"IZ24T84RBb","xPos":0.8596491228070176,"yPos":1,"followBentRate":true},{"uid":"18CSQeZ2kp","xPos":0.8596491228070176,"yPos":1,"followBentRate":false},{"uid":"qk2KgcK1Jy","xPos":0.8923076923076924,"yPos":1,"followBentRate":false},{"uid":"U2M66v3SCa","xPos":0.9649122807017544,"yPos":1,"followBentRate":true},{"uid":"CmRzqDv0n2","xPos":0.9649122807017544,"yPos":1,"followBentRate":false},{"uid":"b7WyybI4ye","xPos":0.9824561403508771,"yPos":1,"followBentRate":false}],"lookaheadKeyframes":[],"uid":"7BdeJPk393"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":127,"label":"127"},"step":1,"from":20,"to":100},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":1,"label":"1"},"step":0.001,"from":0,"to":0.1},"maxDecelerationRate":127},"name":"Path","uid":"hjOMG1KfRN","lock":false,"visible":true}]}

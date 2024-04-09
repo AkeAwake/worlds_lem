@@ -1,0 +1,79 @@
+63.63, 28.815, 127
+62.794, 29.364, 127
+61.944, 29.889, 127
+61.078, 30.39, 127
+60.198, 30.864, 127
+59.303, 31.31, 127
+58.393, 31.726, 127
+57.47, 32.11, 127
+56.534, 32.461, 127
+55.586, 32.778, 127
+54.626, 33.059, 127
+53.656, 33.302, 127
+52.678, 33.506, 127
+51.691, 33.67, 127
+50.698, 33.789, 127
+49.702, 33.866, 127
+48.702, 33.9, 127
+47.703, 33.892, 127
+46.704, 33.84, 127
+45.709, 33.74, 127
+44.72, 33.595, 127
+43.738, 33.408, 127
+42.765, 33.178, 127
+41.804, 32.899, 127
+40.857, 32.58, 127
+39.924, 32.221, 127
+39.009, 31.816, 127
+38.113, 31.373, 126.552
+37.236, 30.892, 125.476
+36.385, 30.369, 124.391
+35.555, 29.81, 123.296
+34.752, 29.214, 122.192
+33.977, 28.582, 121.077
+33.231, 27.917, 119.952
+32.519, 27.215, 118.816
+31.839, 26.482, 117.67
+31.198, 25.714, 116.512
+30.597, 24.916, 115.342
+30.039, 24.086, 114.161
+29.531, 23.225, 112.967
+29.074, 22.336, 111.76
+28.678, 21.418, 110.541
+28.35, 20.473, 109.307
+28.099, 19.506, 108.06
+27.934, 18.52, 106.799
+27.868, 17.523, 105.522
+27.916, 16.525, 104.231
+28.088, 15.541, 102.923
+28.396, 14.591, 101.598
+28.84, 13.697, 100.257
+29.415, 12.88, 98.897
+30.105, 12.157, 97.517
+30.888, 11.537, 96.118
+31.742, 11.019, 94.698
+32.647, 10.594, 93.256
+33.587, 10.254, 91.791
+34.549, 9.98, 90.302
+35.51, 9.705, 88.787
+36.472, 9.43, 87.247
+37.433, 9.155, 85.678
+38.395, 8.881, 84.081
+39.356, 8.606, 82.452
+40.318, 8.331, 80.791
+41.279, 8.057, 79.095
+42.241, 7.782, 77.361
+43.202, 7.507, 75.588
+44.164, 7.232, 73.773
+45.125, 6.958, 71.911
+46.087, 6.683, 70
+46.996, 6.423, 0
+46.996, 6.423, 0
+66.227, 0.929, 0
+endData
+135.6
+127
+200
+63.63, 28.815, 38.68, 45.768, 17.248, 15.38, 33.562, 10.262
+33.562, 10.262, 40.279, 8.342, 40.279, 8.342, 46.996, 6.423
+#PATH.JERRYIO-DATA {"appVersion":"0.6.0","format":"LemLib v0.4.x (inch, byte-voltage)","gc":{"robotWidth":12.5,"robotHeight":19,"robotIsHolonomic":false,"showRobot":true,"uol":2.54,"pointDensity":1,"controlMagnetDistance":1.968503937007874,"fieldImage":{"displayName":"VRC 2024 - Over Under","signature":"VRC 2024 - Over Under","origin":{"__type":"built-in"}}},"paths":[{"segments":[{"controls":[{"uid":"r2XsvdklPc","x":63.63004331610214,"y":28.81457018859079,"lock":false,"visible":true,"heading":318.278,"__type":"end-point"},{"uid":"29XEypBXi4","x":38.679593996496436,"y":45.76808062370748,"lock":false,"visible":true,"__type":"control"},{"uid":"S8pj18fD6p","x":17.247797786065895,"y":15.379712862649255,"lock":false,"visible":true,"__type":"control"},{"uid":"0QforTrbrx","x":33.561553110423475,"y":10.26167197657629,"lock":false,"visible":true,"heading":0,"__type":"end-point"}],"speedProfiles":[{"uid":"OIOlKRWOeS","xPos":0,"yPos":1,"followBentRate":false},{"uid":"Df0UVpgrXd","xPos":0.14545454545454545,"yPos":1,"followBentRate":false},{"uid":"bJmlScJSTE","xPos":0.36363636363636365,"yPos":1,"followBentRate":false},{"uid":"MxvQU0yGjU","xPos":0.4727272727272727,"yPos":1,"followBentRate":false},{"uid":"qPNIwUcAbS","xPos":0.5636363636363636,"yPos":1,"followBentRate":false},{"uid":"qBxAX9Ki4F","xPos":0.6909090909090909,"yPos":1,"followBentRate":false},{"uid":"6VGHgr23bA","xPos":0.8181818181818182,"yPos":1,"followBentRate":false},{"uid":"XlYrnuEWN5","xPos":0.8545454545454545,"yPos":1,"followBentRate":false},{"uid":"iBSB2ynAuC","xPos":0.8888888888888888,"yPos":1,"followBentRate":false}],"lookaheadKeyframes":[],"uid":"PKUBPywdWE"},{"controls":[{"uid":"0QforTrbrx","x":33.561553110423475,"y":10.26167197657629,"lock":false,"visible":true,"heading":0,"__type":"end-point"},{"uid":"ZMwwtiVQ1H","x":46.996410436365004,"y":6.423141312021566,"lock":false,"visible":true,"heading":0,"__type":"end-point"}],"speedProfiles":[],"lookaheadKeyframes":[],"uid":"vO5Uo0T8MN"}],"pc":{"speedLimit":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":127,"label":"127"},"step":1,"from":70,"to":127},"bentRateApplicableRange":{"minLimit":{"value":0,"label":"0"},"maxLimit":{"value":1,"label":"1"},"step":0.001,"from":0,"to":0.195},"maxDecelerationRate":135.6},"name":"Path","uid":"No4B2KxE3b","lock":false,"visible":true}]}
