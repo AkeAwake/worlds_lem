@@ -7,7 +7,7 @@
 //selector configuration
 #define HUE 360 // color in hue
 #define DEFAULT 1 // defaults the program if no auton is selected
-#define AUTONS "Rush 6", "AWP Rush","Elims Rush", "Do Nothing" // list of autons
+#define AUTONS "N Safe", "N Elim","N Rush", "6 Touch", "7 Mid", "7 Bar", "Do Nothing" // list of autons
 
 // writes the code for the selector
 namespace selector{

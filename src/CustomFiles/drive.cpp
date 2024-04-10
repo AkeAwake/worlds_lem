@@ -4,14 +4,10 @@
 #include "pros/misc.h"
 #include "CustomHeaders/globals.hpp"
 
-bool drivertoggle = false;
-bool presseddrivertoggle = false;
-
-pros::ADIDigitalOut offratchet('B', false); // Ratchet puller in port B
-
 // Makes the Intake coast and not hold
 void setBrakes() {
   Intake.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
+  Intake2.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
 }
 
 // Defines the drivetrain to hold its position. This is run in autonomous, or when we are matchloading
@@ -40,50 +36,6 @@ void drivecoast(){
   // Added making the left and right motors groups coast because lemlib sometimes has issues with holding single motors
   leftMotors.set_brake_modes(pros::E_MOTOR_BRAKE_COAST);
   rightMotors.set_brake_modes(pros::E_MOTOR_BRAKE_COAST);
-}
-
-// Defines the macro for autonomous, if the left key is pressed, it runs the begenning part of the auton and resets the driver inertial sensor and chassis.
-void automacro(){
-
-  if(controller.get_digital(pros::E_CONTROLLER_DIGITAL_LEFT) and !presseddrivertoggle){
-    
-    drivertoggle = !drivertoggle;
-    presseddrivertoggle = true;
-
-  }
-
-  if (!controller.get_digital(pros::E_CONTROLLER_DIGITAL_LEFT)) {
-        
-    presseddrivertoggle = false; // the button has been released, be ready for the next press
-
-  }
-
-  if (drivertoggle){
-
-    drivehold();
-    
-    //drivermacro();
-
-  }
-
-  if (!drivertoggle){
-
-    drivecoast();
-
-  }
-
-}
-
-// Defines the intake deploy macro so that if it dosent come down in auto, it can still deploy
-void intakedeploy(){
-
-  // get button press from down
-  if(controller.get_digital(pros::E_CONTROLLER_DIGITAL_DOWN)){
-
-    autohang();
-
-  }
-
 }
 
 // Defines the deadzone, or to where the minimum distance you have to move the joystick for the robot to move

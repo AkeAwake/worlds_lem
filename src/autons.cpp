@@ -125,81 +125,11 @@ pros::ADIDigitalOut autoPTO('H', false); // PTO between hang and Kicker in port 
     }
 
     // Makes the Intake deploy for autonomous, made an int for a task
-    int autohang(){
-
-        // ensures the ratchet is off
-        //hangratchet.set_value(true);
-
-        //pros::delay(200);
+    int intakedeploy(){
         
-        // spins both the kicker motors for a short amount of time
-        Kicker = 127;
-        Kicker2 = 127;
-
-        pros::delay(750);
-
-        Kicker = -120;
-        Kicker2 = -120;
-
-        pros::delay(1460);
-
-        Kicker = 0;
-        Kicker2 = 0;
-
-        // sets the motors to coast to be pulled down by the rubber bands for the hang
-        Kicker.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
-        Kicker2.set_brake_mode(pros::E_MOTOR_BRAKE_COAST);
-
-        //autoPTO.set_value(true);
+        // whatever dylan cooks
 
         // makes the task work
-        return 0;
-    }
-
-    // makes a task to shoot, this means that shooting can be ran before actually starting to shoot making the auto faster
-    int shoottask(){
-
-        autotokickerpto(); // moves the motors to the kicker
-
-        pros::delay(200);
-
-        // Spins the motors at 75% velocity, or 90 volts
-        Kicker = 110;
-        Kicker2 = 110;
-
-        // puts out the back right wing to ensure we are touching the bar
-        brWing.set_value(true);
-
-        // makes the task work
-        return 0;
-    }
-
-    // PTO to the kicker task, this is an int so that it can run the task
-    int autotokickerpto(){
-
-        autoPTO.set_value(true); // First the PTO piston moves the gear over
-
-        // If the gear gets stuck, the motors spin in the opposite direction to make it run
-        // Hang goes up, or stalls the kicker
-        Kicker = 127; 
-        Kicker2 = 127;
-
-        pros::delay(200);
-
-        Kicker = 0;
-        Kicker2 = 0;
-
-        // pros::delay(200);
-
-        // Kicker = 127; 
-        // Kicker2 = 127;
-
-        // pros::delay(200);
-
-        // Kicker = 0;
-        // Kicker2 = 0;
-
-        // Makes the task work
         return 0;
     }
     
@@ -207,13 +137,52 @@ pros::ADIDigitalOut autoPTO('H', false); // PTO between hang and Kicker in port 
     int start(){
 
         // Turns the intake on, and brings in the right wing
-        Intake = 127;
+        Intake1 = 127;
+        Intake2 = 127;
         pros::delay(300);
         rWing.set_value(false);
 
         // makes the task work
         return 0;
 
+    }
+
+    void nearsafe(){
+
+
+        
+    }
+
+    void nearelims(){
+
+
+
+
+    }
+
+    void nearrush(){
+
+
+
+
+    }
+
+    void sixballtouch(){
+
+
+
+    }
+
+    void sevenballmid(){
+
+
+
+    }
+
+    void sevenballbar(){
+
+
+        
     }
 
     // defines the rush sixball
@@ -535,17 +504,21 @@ pros::ADIDigitalOut autoPTO('H', false); // PTO between hang and Kicker in port 
         rWing.set_value(true);
         pros::Task startingtask(start);
         chassis.moveTo(-5.729, 3.232, 1600, 127, true);
-        Intake = 0;
+        Intake1 = 0;
+        Intake2 = 0;
         chassis.turnTo(-47.851, 3.232, 400, false, 127, true);
         rWing.set_value(true);
-        Intake = -127;
+        Intake1 = -127;
+        Intake2 = -127;
         // -36.114
         chassis.moveTo(-100, 3.232, 800, 127, true);
         chassis.setPose(chassis.getPose());
         rWing.set_value(false);
-        Intake = 0;
+        Intake1 = 0;
+        Intake2 = 0;
         chassis.moveTo(-30.378, 0.112, 500, 127, true);
-        Intake = 127;
+        Intake1 = 127;
+        Intake2 = 127;
         chassis.turnTo(-8.537, 23.201, 300, false, 127, true);
         chassis.moveTo(-8.537, 23.201, 900, 127, true);
         chassis.turnTo(-55.339, 23.201, 500, false, 127, true);
@@ -556,16 +529,19 @@ pros::ADIDigitalOut autoPTO('H', false); // PTO between hang and Kicker in port 
         chassis.turnTo(-70.628, 48.787, 300, false, 127, true);
         //chassis.setPose(-70.628, 48.787, 270);
         chassis.setPose(chassis.getPose());
-        Intake = -127;
+        Intake1 = -127;
+        Intake2 = -127;
         chassis.follow("testpath.txt", 1100, 10, false, 127, true);
         rWing.set_value(false);
         chassis.moveTo(-62.515, -5.504, 500, 127, true);
         chassis.setPose(chassis.getPose());
-        Intake = 0;
+        Intake1 = 0;
+        Intake2 = 0;
         chassis.moveTo(-62.515, 30.378, 500, 127, true);
         chassis.turnTo(-40.362, 45.667, 300, false, 127, true);*/
         //chassis.setPose(-62.515, 30.378, 55);
-        //Intake = 127;
+        //Intake1 = 127;
+        //Intake2 = 127;
         //chassis.follow("to_elevate.txt", 1100, 10, false, true);
         //pros::lcd::print(4, "pure pursuit finished!");
 

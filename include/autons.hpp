@@ -32,13 +32,23 @@ void drivermacro(); // sets up the driver macro to be ran for driver skills
 
 int start(); // sets up a task for the rush nearside to be ran while the robot is moving towards the ball in the center of the field
 
-int autohang(); // sets up a task for the intake deploy during auto
-
-int shoottask(); // sets up a task for the kicker to start shooting before making it to the matchload bar so that it is spinning at max speed when it gets there
+int intakedeploy(); // sets up a task for an intake deploy to help smooth out the auton making process
 
 void normalsixball(); // sets up the auto for getting sixballs on the farside
 
 void RushNear(); // sets up the auto for rushing to the middle on the nearside
+
+void nearsafe();
+
+void nearelims();
+
+void nearrush();
+
+void sixballtouch();
+
+void sevenballbar();
+
+void sevenballmid();
 
 void rushsixball();
 

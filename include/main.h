@@ -80,7 +80,7 @@ void opcontrol(void);
 #include "CustomHeaders/globals.hpp"
 #include "CustomHeaders/intake.hpp"
 #include "CustomHeaders/wings.hpp"
-#include "CustomHeaders/kicker.hpp"
+#include "CustomHeaders/hang.hpp"
 #include "CustomHeaders/drive.hpp"
 #include "autons.hpp"
 //#include <iostream>

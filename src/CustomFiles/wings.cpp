@@ -17,9 +17,10 @@ void setWings() {
         leftWing.set_value(true); // turns front left wing on
         rightWing.set_value(true); // turns front right wing on
 
-        Intake = -127; // reverses the intake when the front wings are out, makes it easier to drive
+        Intake1 = -127; // reverses the intake when the front wings are out, makes it easier to drive
+        Intake2 = -127; // reverses the intake when the front wings are out, makes it easier to drive
 
-    } 
+    }
     
     // Else statement added to make wings come back in if the buttons are not being pressed
     else {

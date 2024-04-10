@@ -12,14 +12,15 @@ pros::Motor backLeft(-9, pros::E_MOTOR_GEARSET_06, true, pros::E_MOTOR_ENCODER_C
 pros::Motor frontRight(11, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS); // right front motor. port 18
 pros::Motor middleRight(2, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS); // right middle motor. port 19
 pros::Motor backRight(3, pros::E_MOTOR_GEARSET_06, false, pros::E_MOTOR_ENCODER_COUNTS); // right back motor. port 21
-pros::Motor Kicker(12, pros::E_MOTOR_GEARSET_36, true, pros::E_MOTOR_ENCODER_COUNTS); // catapult motor. port 14, reversed
-pros::Motor Kicker2(16, pros::E_MOTOR_GEARSET_18, true, pros::E_MOTOR_ENCODER_COUNTS); // catapult motor. port 14, reversed
-pros::Motor Intake(21, pros::E_MOTOR_GEARSET_06, true, pros::E_MOTOR_ENCODER_COUNTS); // intake motor. port 16, reversed
+pros::Motor Intake1(21, pros::E_MOTOR_GEARSET_06, true, pros::E_MOTOR_ENCODER_COUNTS); // intake motor. port 16, reversed
+pros::Motor Intake2(12, pros::E_MOTOR_GEARSET_06, true, pros::E_MOTOR_ENCODER_COUNTS); // second intake motor. port 14, reversed
+
 
 
 // motor groups
 pros::MotorGroup leftMotors({frontLeft, middleLeft, backLeft}); // left motor group
 pros::MotorGroup rightMotors({frontRight, middleRight, backRight}); // right motor group
+pros::MotorGroup Intake({Intake, Intake2}); // Intake motor group
 
 // Inertial Sensor on port 8
 pros::Imu imu(6);
